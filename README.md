@@ -3,8 +3,7 @@
 > Documentation generator for TypeScript projects.
 
 [![Build Status](https://travis-ci.org/paztis/typedoc.svg?branch=dev)](https://travis-ci.org/paztis/typedoc)
-[![NPM Version](https://badge.fury.io/js/typedoc.svg)](https://badge.fury.io/js/typedoc)
-[![Chat on Gitter](https://badges.gitter.im/paztis/typedoc.svg)](https://gitter.im/paztis/typedoc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![npm version](https://badge.fury.io/js/%40paztis%2Ftypedoc.svg)](https://badge.fury.io/js/%40paztis%2Ftypedoc)
 
 ## Documentation
 Visit our website for more complete documentation and example API documentation:<br>
