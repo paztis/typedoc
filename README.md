@@ -21,14 +21,14 @@ TypeDoc runs on Node.js and is available as an NPM package. You can install Type
 in your project's directory as usual:
 
 ```bash
-$ npm install typedoc --save-dev
+$ npm install @paztis/typedoc --save-dev
 ```
 
 Like the TypeScript compiler, TypeDoc comes with a binary that can be called from anywhere
 if you install TypeDoc as a global module. The name of the executable is ``typedoc``.
 
 ```bash
-$ npm install typedoc --global
+$ npm install @paztis/typedoc --global
 $ typedoc
 ```
 
