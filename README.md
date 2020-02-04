@@ -2,9 +2,9 @@
 
 > Documentation generator for TypeScript projects.
 
-[![Build Status](https://travis-ci.org/TypeStrong/typedoc.svg?branch=master)](https://travis-ci.org/TypeStrong/typedoc)
+[![Build Status](https://travis-ci.org/paztis/typedoc.svg?branch=dev)](https://travis-ci.org/paztis/typedoc)
 [![NPM Version](https://badge.fury.io/js/typedoc.svg)](https://badge.fury.io/js/typedoc)
-[![Chat on Gitter](https://badges.gitter.im/TypeStrong/typedoc.svg)](https://gitter.im/TypeStrong/typedoc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Chat on Gitter](https://badges.gitter.im/paztis/typedoc.svg)](https://gitter.im/paztis/typedoc?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## Documentation
 Visit our website for more complete documentation and example API documentation:<br>
@@ -61,7 +61,7 @@ For a complete list of the command line arguments run `typedoc --help` or visit 
 
 #### Source file handling
 * `--exclude <pattern>`<br>
-  Exclude files by the given pattern when a path is provided as source. Supports standard minimatch patterns (see [#170](https://github.com/TypeStrong/typedoc/issues/170))
+  Exclude files by the given pattern when a path is provided as source. Supports standard minimatch patterns (see [#170](https://github.com/paztis/typedoc/issues/170))
 * `--includeDeclarations`<br>
   Turn on parsing of .d.ts declaration files.
 * `--excludeExternals`<br>
@@ -90,13 +90,13 @@ For a complete list of the command line arguments run `typedoc --help` or visit 
 
 This project is maintained by a community of developers. Contributions are welcome and appreciated.
 You can find TypeDoc on GitHub; feel free to start an issue or create a pull requests:<br>
-[https://github.com/TypeStrong/typedoc](https://github.com/TypeStrong/typedoc)
+[https://github.com/paztis/typedoc](https://github.com/paztis/typedoc)
 
-For more information, read the [contribution guide](https://github.com/TypeStrong/typedoc/blob/master/CONTRIBUTING.md).
+For more information, read the [contribution guide](https://github.com/paztis/typedoc/blob/dev/CONTRIBUTING.md).
 
 
 ## License
 
 Copyright (c) 2015 [Sebastian Lenz](https://typedoc.org).<br>
-Copyright (c) 2016-2018 [TypeDoc Contributors](https://github.com/TypeStrong/typedoc/graphs/contributors).<br>
+Copyright (c) 2016-2018 [TypeDoc Contributors](https://github.com/paztis/typedoc/graphs/contributors).<br>
 Licensed under the Apache License 2.0.
