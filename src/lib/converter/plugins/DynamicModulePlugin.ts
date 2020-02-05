@@ -45,6 +45,11 @@ export class DynamicModulePlugin extends ConverterComponent {
     private onBegin(context: Context) {
         this.basePath.reset();
         this.reflections = [];
+
+        // only consider the program files paths for basePath construction
+        context.program.getRootFileNames().forEach((fileName) => {
+            this.basePath.add(fileName);
+        });
     }
 
     /**
@@ -61,9 +66,7 @@ export class DynamicModulePlugin extends ConverterComponent {
                 return;
             }
 
-            name = name.replace(/"/g, '');
             this.reflections.push(reflection);
-            this.basePath.add(name);
         }
     }
 
@@ -93,6 +96,10 @@ export class DynamicModulePlugin extends ConverterComponent {
             });
 
             reflection.name = this.basePath.trim(name);
+
+            // in case of mono-repo (node_modules outside the project), trunk the module name after the node_modules folder
+            const nodeModulesRegexp = new RegExp('^(.*)node_modules/');
+            reflection.name = reflection.name.replace(nodeModulesRegexp, '');
         });
     }
 }
